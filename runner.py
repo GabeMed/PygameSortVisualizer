@@ -10,7 +10,7 @@ running = True
 
 # getting the random array
 random.seed(42)
-array = [random.randint(1, 20) for _ in range(10)]
+array = [random.randint(1, 20) for _ in range(30)]
 
 # Creating the sorting algorithm object
 algorithms = Algorithms(array, screen)
@@ -26,6 +26,6 @@ while running:
     running = False  # Stop after sorting
 
     # Control the frame rate
-    clock.tick(60)
+    clock.tick(200)
 
 pygame.quit()
