@@ -1,44 +1,43 @@
-# Sort Visualizer com Pygame
+# Sort Visualizer with Pygame
 
-Este projeto consiste em um **Sort Visualizer** desenvolvido com **Pygame**, permitindo visualizar diferentes algoritmos de ordenação em tempo real.
+This project is a **Sort Visualizer** developed with **Pygame**, allowing real-time visualization of different sorting algorithms.
 
-## 🚀 Funcionalidades
-- Animação interativa dos algoritmos de ordenação
-- Suporte a múltiplos algoritmos
-- Interface gráfica simples e intuitiva com Pygame
-- Opções de personalização para velocidade e tamanho do array
+## 🚀 Features
+- Interactive animation of sorting algorithms  
+- Support for multiple algorithms  
+- Simple and intuitive graphical interface using Pygame  
+- Customization options for speed and array size
 
-## 📌 Tecnologias Utilizadas
-- **Python**
+## 📌 Technologies Used
+- **Python**  
 - **Pygame**
 
-## 📦 Instalação
-1. Clone este repositório:
+## 📦 Installation
+1. Clone this repository:
    ```bash
-   git clone https://github.com/seu-usuario/sort-visualizer.git
+   git clone https://github.com/your-username/sort-visualizer.git
    ```
-2. Acesse o diretório do projeto:
+2. Navigate to the project directory:
    ```bash
    cd sort-visualizer
    ```
-3. Instale as dependências:
+3. Install the dependencies:
    ```bash
    pip install -r requirements.txt
    ```
 
-## ▶️ Como Usar
-1. Execute o script principal:
+## ▶️ How to Use
+1. Run the main script:
    ```bash
    python main.py
    ```
-2. Escolha o algoritmo de ordenação desejado.
-3. Visualize o processo de ordenação em tempo real!
+2. Choose the desired sorting algorithm.  
+3. Watch the sorting process in real time!
 
 ## 📜 Roadmap
-- [ ] Adicionar mais algoritmos de ordenação
-- [ ] Melhorar a interface gráfica
-- [ ] Implementar controles interativos
+- [ ] Add more sorting algorithms  
+- [ ] Improve the graphical interface  
+- [ ] Implement interactive controls
 
-## 📄 Licença
-Este projeto está licenciado sob a **MIT License**.
-
+## 📄 License
+This project is licensed under the **MIT License**.
