@@ -15,7 +15,7 @@ This project is a **Sort Visualizer** developed with **Pygame**, allowing real-t
 ## 📦 Installation
 1. Clone this repository:
    ```bash
-   git clone https://github.com/your-username/sort-visualizer.git
+   git clone https://github.com/GabeMed/PygameSortVisualizer.git
    ```
 2. Navigate to the project directory:
    ```bash
