@@ -1,44 +1,53 @@
-# Sort Visualizer com Pygame
+# Sort Visualizer with Pygame
 
-Este projeto consiste em um **Sort Visualizer** desenvolvido com **Pygame**, permitindo visualizar diferentes algoritmos de ordenação em tempo real.
+This project is a **Sort Visualizer** built with **Pygame**, letting you see different sorting algorithms in action in real time.
 
-## 🚀 Funcionalidades
-- Animação interativa dos algoritmos de ordenação
-- Suporte a múltiplos algoritmos
-- Interface gráfica simples e intuitiva com Pygame
-- Opções de personalização para velocidade e tamanho do array
+## 🚀 Features
 
-## 📌 Tecnologias Utilizadas
-- **Python**
-- **Pygame**
+* Interactive animation of sorting algorithms
+* Support for multiple algorithms
+* Simple, intuitive graphical interface using Pygame
+* Customization options for speed and array size
 
-## 📦 Instalação
-1. Clone este repositório:
+## 📌 Technologies Used
+
+* **Python**
+* **Pygame**
+
+## 📦 Installation
+
+1. Clone this repository:
+
    ```bash
-   git clone https://github.com/seu-usuario/sort-visualizer.git
+   git clone https://github.com/your-username/sort-visualizer.git
    ```
-2. Acesse o diretório do projeto:
+2. Go to the project directory:
+
    ```bash
    cd sort-visualizer
    ```
-3. Instale as dependências:
+3. Install the dependencies:
+
    ```bash
    pip install -r requirements.txt
    ```
 
-## ▶️ Como Usar
-1. Execute o script principal:
+## ▶️ How to Use
+
+1. Run the main script:
+
    ```bash
    python main.py
    ```
-2. Escolha o algoritmo de ordenação desejado.
-3. Visualize o processo de ordenação em tempo real!
+2. Select the desired sorting algorithm.
+3. Watch the sorting process unfold in real time!
 
 ## 📜 Roadmap
-- [ ] Adicionar mais algoritmos de ordenação
-- [ ] Melhorar a interface gráfica
-- [ ] Implementar controles interativos
 
-## 📄 Licença
-Este projeto está licenciado sob a **MIT License**.
+* [ ] Add more sorting algorithms
+* [ ] Improve the graphical interface
+* [ ] Implement interactive controls
 
+## 📄 License
+
+This project is licensed under the **MIT License**.
