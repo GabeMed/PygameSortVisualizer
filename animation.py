@@ -2,10 +2,11 @@ import pygame
 
 
 class Animation:
-    def __init__(self, screen, array: list):
+    def __init__(self, screen, array: list, swappedIndexes: list[list]):
         self.screen = screen
         self.array = array
         self.positions = []
+        self.swappedIndexes = swappedIndexes
 
         # Calculate initial positions
         self.calculate_positions()
@@ -40,5 +41,12 @@ class Animation:
 
         pygame.display.update()
 
-    def swap(self, i, j):
-        self.array[i], self.array[j] = self.array[j], self.array[i]
+    def animate(self):
+        for i, j in self.swappedIndexes:
+            # aplica a troca no vetor mostrado
+            self.array[i], self.array[j] = self.array[j], self.array[i]
+            # redesenha destacando as duas barras trocadas
+            self.frameRect(highlight=(i, j))
+            pygame.time.delay(100)
+
+        self.frameRect()  # frame final sem destaque
