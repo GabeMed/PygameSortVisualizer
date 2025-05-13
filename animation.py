@@ -1,11 +1,13 @@
 import pygame
 
 
+# Animation class to handle the visual representation of sorting algorithms
 class Animation:
-    def __init__(self, screen, array: list):
+    def __init__(self, screen, array: list, swappedIndexes: list[list]):
         self.screen = screen
         self.array = array
         self.positions = []
+        self.swappedIndexes = swappedIndexes
 
         # Calculate initial positions
         self.calculate_positions()
@@ -40,5 +42,12 @@ class Animation:
 
         pygame.display.update()
 
-    def swap(self, i, j):
-        self.array[i], self.array[j] = self.array[j], self.array[i]
+    def animate(self):
+        for i, j in self.swappedIndexes:
+            # Swap the values in the array
+            self.array[i], self.array[j] = self.array[j], self.array[i]
+            # hilight the swapped bars
+            self.frameRect(highlight=(i, j))
+            pygame.time.delay(100)
+
+        self.frameRect()  # Final update to show sorted array
