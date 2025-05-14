@@ -9,13 +9,13 @@ class Algorithms:
             swapped = False
             for j in range(n - i - 1):
                 if self.array[j] > self.array[j + 1]:
-                    # grava o par …
-                    self.swappedIndexes.append((j, j + 1))
-                    # … e já faz a troca de verdade
-                    self.array[j], self.array[j + 1] = (
-                        self.array[j + 1],
-                        self.array[j],
-                    )
+                    self._swap(j, j + 1)
                     swapped = True
-            if not swapped:  # early-exit correto agora
+            if not swapped:
                 break
+
+    def _swap(self, i: int, j: int):
+        # Add the swap to the list of swapped indexes
+        self.swappedIndexes.append((i, j))
+        # Perform the swap
+        self.array[i], self.array[j] = self.array[j], self.array[i]
