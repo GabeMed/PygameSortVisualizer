@@ -11,7 +11,7 @@ original_array = [random.randint(1, 20) for _ in range(30)]
 working_array = original_array.copy()  # Copy the original array to avoid modifying it
 
 algorithms = Algorithms(working_array)
-algorithms.bubble_sort()  # Execute the sorting algorithm and store the swaps
+algorithms.quick_sort()  # Execute the sorting algorithm and store the swaps
 
 animation = Animation(screen, original_array, algorithms.swappedIndexes)
 animation.animate()  # Animate the sorting process
